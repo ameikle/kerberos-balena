@@ -6,10 +6,10 @@ volumes:
   logs: {}
   web: {}
 services:
-  image_processing:
-    build:
-      context: .
-      dockerfile: Dockerfile_ffmpeg
+  #image_processing:
+    #build:
+      #context: .
+      #dockerfile: Dockerfile_ffmpeg
   main:
     build:
       context: kerberos
