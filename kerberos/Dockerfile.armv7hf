@@ -2,4 +2,6 @@ FROM kerberos/kerberos@sha256:b8680b9bbb111c9c444ebe48500364fe0bd2dd239de71fab56
 
 RUN apt-get install -y ffmpeg
 
+RUN apt-get install -y pika
+
 CMD ["bash", "/run.sh"]
